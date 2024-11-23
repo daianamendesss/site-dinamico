@@ -1,0 +1,162 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #4a4e69;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #6c757d;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+body[data-tema="claro"] {
+    background-color: #A7D8FF; 
+    color: #333;
+}
+
+body[data-tema="claro"] header {
+    background-color: #BCE0FD; 
+    color: #333;
+}
+
+body[data-tema="claro"] header nav ul li a {
+    color: #333;
+}
+
+body[data-tema="claro"] section, 
+body[data-tema="claro"] footer {
+    color: #333;
+}
+
+body[data-tema="escuro"] {
+    background-color: #3A5F91; 
+    color: #000000;
+}
+
+body[data-tema="escuro"] header {
+    background-color: #4B76A3; 
+    color: #fff;
+}
+
+body[data-tema="escuro"] header nav ul li a {
+    color: #fff;
+}
+
+body[data-tema="escuro"] section, 
+body[data-tema="escuro"] footer {
+    color: #000000;
+}
+
+body[data-tema="verde"] {
+    background-color: #2C9F8E; 
+    color: #000000;
+}
+
+body[data-tema="verde"] header {
+    background-color: #4EAE98; 
+    color: #000000;
+}
+
+body[data-tema="verde"] header nav ul li a {
+    color: #000000;
+}
+
+body[data-tema="verde"] section, 
+body[data-tema="verde"] footer {
+    color: #000000;
+}
+
+body[data-tema="marinho"] {
+    background-color: #001f3d;
+    color: #000000;
+}
+
+body[data-tema="marinho"] header {
+    background-color: #003366;
+    color: #fff;
+}
+
+body[data-tema="marinho"] header nav ul li a {
+    color: #000000;
+}
+
+body[data-tema="marinho"] section, 
+body[data-tema="marinho"] footer {
+    color: #000000;
+}
+
+.imagem-hora {
+    width: 150px;  
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hora-do-dia {
+    text-align: center;  
+}

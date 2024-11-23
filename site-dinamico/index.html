@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Exclusivo - Daiana da Cunha Mendes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Criação Exclusiva por Daiana da Cunha Mendes</h1>
+        <nav>
+            <ul>
+                <li><a href="#hora-do-dia">Hora do Dia</a></li>
+                <li><a href="#tabuada">Gerador de Tabuada</a></li>
+                <li><a href="#analisador">Analisador de Números</a></li>
+                <li><a href="#contagem">Contagem com Intervalo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hora-do-dia">
+            <p id="mensagem-hora"></p>
+            <img id="imagem-hora" src="" alt="Imagem do horário" class="imagem-hora">
+        </section>
+
+        <section id="tabuada">
+            <h2>Gerador de Tabuada</h2>
+            <form id="tabuada-form">
+                <label for="numero">Digite um número:</label>
+                <input type="number" id="numero" required>
+                <button type="submit">Gerar Tabuada</button>
+            </form>
+            <ul id="resultado-tabuada"></ul>
+        </section>
+
+        <section id="analisador">
+            <h2>Analisador de Números</h2>
+            <form id="analisador-form">
+                <label for="novo-numero">Digite um número:</label>
+                <input type="number" id="novo-numero" required>
+                <button type="submit">Adicionar</button>
+            </form>
+            <button id="analisar">Analisar</button>
+            <ul id="lista-numeros"></ul>
+            <p id="resultado-analise"></p>
+        </section>
+
+        <section id="contagem">
+            <h2>Contagem com Intervalo</h2>
+            <form id="contagem-form">
+                <label for="inicio">Número inicial:</label>
+                <input type="number" id="inicio" required>
+                <label for="fim">Número final:</label>
+                <input type="number" id="fim" required>
+                <label for="passo">Passo:</label>
+                <input type="number" id="passo" required>
+                <button type="submit">Contar</button>
+            </form>
+            <p id="resultado-contagem"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Daiana da Cunha Mendes 🌟</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
